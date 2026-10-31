@@ -1,0 +1,33 @@
+{
+  "name": "dsh-memory-thermal",
+  "version": "0.1.0",
+  "description": "Memory thermal index with Ebbinghaus decay and edge-line recall. 记忆冷热 + 艾宾浩斯遗忘 + 边线搭话。",
+  "license": "MIT",
+  "main": "index.js",
+  "dsh": {
+    "plugin": true
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "memory",
+    "ebbinghaus",
+    "forgetting-curve",
+    "recall",
+    "memory-index"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/火鱼艾/dsh-memory-thermal.git"
+  },
+  "files": [
+    "index.js",
+    "lib/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,15 @@
+# 运行态产物不入库
+node_modules/
+*.log
+
+# 索引 / S 状态 / 边线搭话状态，都是本地跑出来的东西
+memory-index.json
+memory-stability.json
+edge-talk-state.json
+edge-topic.txt
+memory-index.log.txt
+
+# 临时文件
+*.tmp-*
+.DS_Store
+Thumbs.db
